@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 argh = "0.1.9"
 chrono = "0.4.23"
+locale_config = "0.3.0"
