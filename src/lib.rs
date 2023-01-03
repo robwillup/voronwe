@@ -201,7 +201,7 @@ pub fn calendar(year: u32, locale_str: &str, starting_day: u32) -> Vec<Vec<Vec<S
 			year_memoized,
 			starting_day,
 			locale_info.month_names(),
-
+			locale_info.week_day_names(),
 		);
 		column_counter = month % COLUMN;
 		if column_counter == 0 {
